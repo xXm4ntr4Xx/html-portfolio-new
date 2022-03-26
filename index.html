@@ -19,6 +19,9 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+<!-- Aos animation -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -48,7 +51,7 @@
   </header><!-- End Header -->
 
   <!-- ======= Home Start here ======= -->
-  <div id="home" class="hero route bg-image" style="background-image: url(https://images.pexels.com/photos/434346/pexels-photo-434346.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)">
+  <div id="home" class="hero route bg-image" style="background-image: url(https://images.pexels.com/photos/434346/pexels-photo-434346.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)"data-aos="fade-up">
     <div class="overlay-itro"></div>
     <div class="hero-content display-table">
       <div class="table-cell">
@@ -67,9 +70,9 @@
   <main id="main">
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about-mf sect-pt4 route" style="background-image: url(https://images.pexels.com/photos/238118/pexels-photo-238118.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); background-repeat: no-repeat;background-size:100%;">
+    <section id="about" class="about-mf sect-pt4 route" style="background-image: url(https://images.pexels.com/photos/238118/pexels-photo-238118.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); background-repeat: no-repeat;background-size:100%;"data-aos="fade-left">
       <div class="container">
-                      <div class="about-img">
+                      <div class="about-img" data-aos="zoom-in-up">
                         <img  src="assets/img/me.jpeg" class=" ml-50  rounded mx-auto d-block w-25 p-1 rounded-circle" alt="">
                       </div>
    
@@ -82,7 +85,8 @@
                       </div>
                     </div>
                   </div>
-                  <div class="skill-mf display-10 text-center">
+                  <div class="skill-mf display-10 text-center" data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom">
                     <p class="title-s fs-4" style="color: red;">Skill</p>
                     <span>HTML</span>
                     <br/> 
@@ -96,14 +100,14 @@
                     <br/>
                     
                   </div>
-                <div class="col-md-15">
+                <div class="col-md-15" >
                   <div class="about-me text-center">
                     <div class="title-box-4 text-center">
                       <h5 class="fs-3">
                         About me
                       </h5>
                     </div>
-                    <p class="s-description text-center" style="margin: 5%;">
+                    <p class="s-description text-center " style="margin: 5%;" data-aos="zoom-out">
                       I'm 33 years old guy from Italy.
                       After working 9 years in a casino as a croupier I decided to challenge myself by joining a different sector.
                       I have always been interested in coding, I have always watched tutorials on youtube and I was always amazed at what people can produce by writing a simple line of code.
@@ -126,7 +130,7 @@
 
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="project" class="portfolio-mf sect-pt4 route" style="background-image: url(https://images.pexels.com/photos/2967810/pexels-photo-2967810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); background-repeat: no-repeat;background-size:100%;">
+    <section id="project" class="portfolio-mf sect-pt4 route" style="background-image: url(https://images.pexels.com/photos/2967810/pexels-photo-2967810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); background-repeat: no-repeat;background-size:100%;"data-aos="fade-right">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -141,14 +145,14 @@
         </div>
         <div class="row">
 
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="zoom-in-right">
             <div class="work-box rounded-3">
               <a href="https://beyonderbound.netlify.app/" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
                   <img src="https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/099524b6-bafe-4f92-83ea-13fc56628a0e.gif?ClientID=vimeo-core-prod&Date=1647285889&Signature=23294ea03f7785f1aed1d61fe53670cb559256b5" alt="" class="img-fluid">
                 </div>
               </a>
-              <div class="work-content">
+              <div class="work-content" >
                 <div class="row">
                   <div class="text-center">
                     <h2 class="w-title text-center">Beyonderbound</h2>
@@ -179,7 +183,7 @@
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4"data-aos="zoom-in-up">
             <div class="work-box rounded-3">
               <a href="https://bootcamperknowledge.herokuapp.com/" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img h-25">
@@ -216,7 +220,7 @@
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4"data-aos="zoom-in-left">
             <div class="work-box rrounded-3">
               <a href="https://weather-application001.herokuapp.com/" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img " style="height: 200px">
@@ -252,7 +256,7 @@
           </div>
 
           
-          <div class="col-md-4">
+          <div class="col-md-4"data-aos="zoom-in-right">
             <div class="work-box rounded-3">
               <a href="https://pietro-annobil.netlify.app/" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
@@ -283,7 +287,7 @@
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4"data-aos="zoom-in-down">
             <div class="work-box rounded-3">
               <a href="https://little-dictionary.netlify.app" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
@@ -317,7 +321,7 @@
           </div>
 
 
-          <div class="col-md-4">
+          <div class="col-md-4"data-aos="zoom-in-leftt">
             <div class="work-box rounded-3">
               <a href="https://a-better-movie-search.netlify.app" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
@@ -355,8 +359,8 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="about-mf sect-pt4 route"style="background-image: url(https://images.pexels.com/photos/1036808/pexels-photo-1036808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); background-repeat: no-repeat;background-size:100%;">
-      <div class="container" >
+    <section id="contact" class="about-mf sect-pt4 route"style="background-image: url(https://images.pexels.com/photos/1036808/pexels-photo-1036808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); background-repeat: no-repeat;background-size:100%;" data-aos="zoom-in-up">
+      <div class="container" data-aos="flip-left">
         <div class="row">
           <div class="col-sm-12">
             <div class="box-shadow-full"style="opacity: 0.8;" >
@@ -423,6 +427,9 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+  AOS.init();
+</script>
 
 </body>
 
